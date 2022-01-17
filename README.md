@@ -1,4 +1,4 @@
-# applescripts for your enjoyment
+# applescripts for your daily use and enjoyment
 
 various hacky scripts to do hacky things on macos, usually with the goal of clicking a little less, to eliminating clicks altogether.
 
