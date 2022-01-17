@@ -5,7 +5,7 @@ various hacky scripts to do hacky things on macos, usually with the goal of clic
 ## how to use
 
 in general i would recommend creating an alias in `zsh` or `bash`, depending on which you're using, and pointing to your script, like so<br>
-`alias [your_alias_name]="osascript ~/[path to your scripts]/applescripts/[your_script_name].applescript"`
+`alias [your_alias_name]="osascript ~/[path to your scripts]/[your_script_name].applescript"`
 
 and then running from terminal. you could also create a macos keyboard shortcut. for maximum laziness, run these commands from stream deck buttons. so lazy! :robot:
 
