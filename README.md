@@ -1,6 +1,6 @@
 # applescripts for your daily use and enjoyment
 
-various hacky scripts to do hacky things on macos, usually with the goal of clicking a little less, to eliminating clicks altogether.
+various hacky scripts to do hacky things on macos, usually with the goal of clicking a little less, ideally eliminating clicks altogether.
 
 in general i would recommend creating an alias in `zsh` or `bash`, depending on which you're using, and pointing to your script, like so:<br>
 `alias [your_alias_name]="osascript ~/[path to your aliases]/applescripts/[your_alias_name].applescript"`
