@@ -1,3 +1,5 @@
+-- this script corrects dock position after dock moves between multiple displays when you don't want it to, which is almost always, i'd bet
+
 -- open system preferences and switch to the dock pane
 
 tell application "System Preferences"
