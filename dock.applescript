@@ -2,7 +2,7 @@
 
 tell application "System Preferences"
     activate
-set current pane to pane "com.apple.preference.dock"
+	set current pane to pane "com.apple.preference.dock"
 end tell
 
 -- set dock to right - this is a hack to move position
