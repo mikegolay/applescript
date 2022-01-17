@@ -25,7 +25,7 @@ tell application "System Events"
     end tell
 end tell
 
--- delay because i once (okay, twice) saw this fail and close too early
+-- delay because i once (okay, twice) saw prefs close too early, causing the script to fail
 
 delay 1
 
