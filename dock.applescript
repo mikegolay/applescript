@@ -5,7 +5,7 @@ tell application "System Preferences"
         set current pane to pane "com.apple.preference.dock"
 end tell
 
---delay because sometimes things is sleepy
+-- delay because sometimes things is sleepy
 
 delay 1
 
