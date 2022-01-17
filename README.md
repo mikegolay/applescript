@@ -12,3 +12,11 @@ here we go.
 ## the scripts
 
 **dock.applescript** - if you're using multiple monitors, say, a laptop and a secondary monitor, macos dock will seemingly randomly flip position between the two displays as you mouse between them (it happens when you mouse outside of the display boundary). bug or feature? no one knows. there are workarounds to keep this from happening, such as toggling "displays have different spaces" in mission control system preferences, but that solution has drawbacks, and for me, it's not foolproof. what does work is opening system preferences, going to the dock & menu bar pane, and resetting position away from your default (mine is `{screen edge:bottom}`) and back to the default. that's what this script does. it could be cleaner, but it's quick, and it works. all i have to do to fix - and this happens to me dozens of times a day - is type `dock` in terminal and the script does the rest.
+
+**run_xcode.applescript** - to be tweaked, coming soon.
+
+**clean_xcode.applescript** - to be tweaked, coming soon.
+
+**quit_xcode.applescript** - to be tweaked, coming soon.
+
+**reset_simulator.applescript** - to be tweaked, coming soon.
