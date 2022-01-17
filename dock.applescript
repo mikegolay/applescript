@@ -21,6 +21,10 @@ tell application "System Events"
     end tell
 end tell
 
+-- delay because i once saw this fail
+
+delay 1
+
 -- then close preferences and move on with life
 
 tell application "System Preferences"
