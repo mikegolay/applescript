@@ -27,4 +27,4 @@ for many years i've worked in testing and development of ios applications. that'
 
 **quit_xcode.applescript** - quit xcode.
 
-**reset_simulator.applescript** - to be tweaked, coming soon. the simulator keeps evolving (a good thing), and i have a little work to do to update this one.
+**reset_simulator.applescript** - to be tweaked, coming soon. the simulator keeps evolving (a good thing), and i have a little work to do to update this one. this is another way of saying my hack broke.
