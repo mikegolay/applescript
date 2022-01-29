@@ -1,5 +1,5 @@
 
-#this info may be dated. if often is.
+#notes on how to do some of this same stuff via xcrun, on the command line. this info may be dated. it often is.
 
 To close all active simulators run:
 xcrun simctl shutdown all
