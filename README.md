@@ -22,6 +22,8 @@ if you're using multiple monitors, say, a laptop and a secondary monitor, macos 
 
 for many years i've worked in testing and development of ios applications. that's meant a lot of time in xcode, which is a great IDE. this said, the necessary stops of building, running, stopping, cleaning, resetting simulator, etc., can be terribly time consuming. the scripts below are very simple attempts at automating some of this flow. again, the approach i use is creating aliases for the commands and running them from terminal. for a number of more complex tasks, you can chain those commands together and run from a single command, for example `alias [your_combined_alias_name]="stopxcode && cleanxcode && quitxcode"` to do something like stop, clean and quit xcode. experiment to see what works best for your workflow. for the last example, it may be advisable to add a `sleep` here and there so your ruthlessly efficient scripting doesn't overrun the whole circus, ya freakin' wizard.
 
+it should be noted that starting around xcode 9, `xcrun` gives you a lot of these actions on the command line, and that's probably a more maintainable way to go moving forward.
+
 **run_xcode.applescript**<br>
 run the build. you could create an alias to first `git pull` some code, then `&& runxcode`, as an example.
 
