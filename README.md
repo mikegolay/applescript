@@ -29,4 +29,4 @@ for many years i've worked in testing and development of ios applications. that'
 
 **quit_simulator.applescript** -- quit the ios simulator. there are a lot of ways to do this (`xcrun simctl shutdown all` is a better path for some workflows), and this simple app tell is what's up. i'd commonly use this paired with other commands. it's a good thing to break it out so you can call and use it where you need it.
 
-**reset_simulator.applescript** - this is one that continually evolves as does xcode and the simulators. right now there's an issue getting to the `Erase` button, so you have to hit that manually. i will continue to beat myself up about it until i figure it out. there are other approaches with `xcrun` as well.
+**reset_simulator.applescript** - this is one that continually evolves as does xcode and the simulators. right now there's an issue getting to the `Erase` button, so you have to hit that manually. i will continue to beat myself up about it until i figure it out. there are [other approaches](https://medium.com/xcblog/simctl-control-ios-simulators-from-command-line-78b9006a20dc) with `xcrun` as well.
