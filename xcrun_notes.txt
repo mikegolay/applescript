@@ -1,0 +1,29 @@
+
+#this info may be dated. if often is.
+
+To close all active simulators run:
+xcrun simctl shutdown all
+
+To reset all simulators run:
+xcrun simctl erase all
+
+You can filter what simulator to close/reset like this:
+xcrun simctl shutdown F36B238F-3ED6-4E10-BB5A-0726151916FA
+xcrun simctl erase F36B238F-3ED6-4E10-BB5A-0726151916FA
+
+List all sims:
+xcrun simctl list
+
+To run any simulator by GUID:
+xcrun simctl boot 85B45BB1-2174-43CA-9D9C-B065B1644617
+
+To install app to the booted simulator:
+xcrun simctl install booted /path/to/your.app
+
+To remove app from the booted simulator:
+xcrun simctl uninstall booted /path/to/your.app
+
+To launch the app in the booted simulator:
+xcrun simctl launch booted "com.app.bundleIdentifier"
+
+"com.app.bundleIdentifier" is your CFBundleIdentifier in Info.plist
