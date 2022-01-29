@@ -14,7 +14,7 @@ xcrun simctl erase F36B238F-3ED6-4E10-BB5A-0726151916FA
 List all sims:
 xcrun simctl list
 
-To run any simulator by GUID:
+To run any simulator by GUID (iphone 13 mini - the best phone ever, obviously - example):
 xcrun simctl boot 85B45BB1-2174-43CA-9D9C-B065B1644617
 
 To install app to the booted simulator:
