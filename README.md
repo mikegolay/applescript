@@ -1,6 +1,8 @@
 # applescripts for your daily use and enjoyment
 
-various hacky scripts to do hacky things on macos, usually with the goal of clicking a little less, ideally eliminating clicks altogether.
+various hacky scripts to do hacky things on macos, usually with the goal of clicking a little less, ideally eliminating clicks altogether. should you, at this point, look for other ways to do things on macos, mostly from the command line? i mean, probably?
+
+anyhoo.
 
 ## how to use
 
