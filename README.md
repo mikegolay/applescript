@@ -17,7 +17,7 @@ here we go.
 
 ### stuff to make life a little easier
 
-**dock.applescript**<br>
+#### **dock.applescript**<br>
 if you're using multiple monitors, say, a laptop and a secondary monitor, macos dock will seemingly randomly flip position between the two displays as you mouse between them (it happens when you mouse outside of the display boundary when moving between displays, which, i must add, is inevitable). bug or feature? no one knows. there are workarounds to keep this from happening, such as toggling "displays have different spaces" in mission control system preferences, but that solution has drawbacks, and for me, it's not foolproof. what does work is opening system preferences, going to the dock & menu bar pane, and resetting position away from your default (mine is `{screen edge:bottom}`) and back to the default. so many clicks, gosh! anyway, that's what this script does. it could be cleaner, but it's quick, and it works. all i have to do to fix dock position - and this happens to me dozens of times a day - is type `dock` in terminal. the script does the rest. that's what we'll have to live with until apple adds a preference to keep the dock fixed, which they totally should do. but no.
 
 ### xcode scripts
@@ -26,20 +26,20 @@ for many years i've worked in testing and development of ios applications. that'
 
 it should be noted that starting around xcode 9, `xcrun` gives you a lot of these actions on the command line, and that's probably a more maintainable way to go, moving forward.
 
-**run_xcode.applescript**<br>
+#### **run_xcode.applescript**<br>
 run the build. you could create an alias to first `git pull` some code, then `&& runxcode`, as an example.
 
-**clean_xcode.applescript**<br>
+#### **clean_xcode.applescript**<br>
 clean the build.
 
-**stop_xcode.applescript**<br>
+#### **stop_xcode.applescript**<br>
 stop the build.
 
-**quit_xcode.applescript**<br>
+#### **quit_xcode.applescript**<br>
 quit xcode.
 
-**quit_simulator.applescript**<br>
+#### **quit_simulator.applescript**<br>
 quit the ios simulator. there are a lot of ways to do this (`xcrun simctl shutdown all` is a better path for some workflows), and this simple app `tell` is what's up. i'd commonly use this paired with other commands. it's a good thing to break it out so you can call and use it where you need it.
 
-**reset_simulator.applescript**<br>
+#### **reset_simulator.applescript**<br>
 this is one that continually evolves, as does xcode and the simulators. which is why stuff breaks, thanks. right now there's an issue getting to the `Erase` button, so you have to hit that manually, and pretty quickly, before the script errors out. i will continue to beat myself up about it until i figure it out. there are [other approaches](https://medium.com/xcblog/simctl-control-ios-simulators-from-command-line-78b9006a20dc) with `xcrun` as well.
